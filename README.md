@@ -21,34 +21,26 @@ A real-time chat application built using the MERN stack (MongoDB, Express, React
 
 1. Clone the repository:
     ```bash
-    git clone https://github.com/Rishabh12004/chat-app.git
+    git clone https://github.com/Rishabh12004//Fullstack-Chat-App.git
     cd chat-app
     ```
 
-2. Install dependencies for both client and server:
-    ```bash
-    cd client
-    npm install
-    cd ../server
-    npm install
-    ```
-
-3. Create a `.env` file in the `server` directory and add the following:
+2. Create a `.env` :
     ```
     MONGO_URI=your_mongodb_connection_string
+    PORT=...  
     JWT_SECRET=your_jwt_secret
+    NODE_ENV=...
     ```
 
 4. Start the development servers:
     ```bash
-    # In the server directory
-    npm run dev
+    npm run build
 
-    # In the client directory
     npm start
     ```
 
-5. Open your browser and navigate to `http://localhost:5173`.
+5. Open your browser and navigate to `http://localhost:5001`.
 
 ## Usage
 
@@ -60,15 +52,7 @@ A real-time chat application built using the MERN stack (MongoDB, Express, React
 
 ```
 chat-app/
-├── client/       # React frontend
-├── server/       # Node.js backend
+├── frontend/       # React frontend
+├── backend/       # Node.js backend
 └── README.md     # Project documentation
 ```
-
-## Contributing
-
-Contributions are welcome! Please fork the repository and submit a pull request.
-
-## License
-
-This project is licensed under the MIT License.
